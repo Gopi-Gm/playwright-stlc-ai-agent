@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "atlassian-rovo-mcp": {
+      "type": "streamable-http",
+      "url": "https://mcp.atlassian.com/v2/mcp"
+    }
+  }
+}
