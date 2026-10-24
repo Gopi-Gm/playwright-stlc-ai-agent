@@ -487,6 +487,7 @@ Continuous Integration and manual execution are configured via GitHub Actions in
 
 - **Automated Triggers:**
   - Push and Pull Requests targeting the `main` branch.
+  - **Scheduled Cron Job**: Runs automatically every day at **10:00 AM IST** (`30 4 * * *` UTC).
 - **Manual Execution (`workflow_dispatch`):**
   - Trigger manually via **GitHub → Actions → 🎭 Playwright Tests → Run workflow**.
   - **Customizable Inputs:**
